@@ -1,0 +1,164 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serifS;
+    font-size: 22px;
+    color: seashell;
+    background: black;
+    opacity: .9;
+}
+
+a {
+    color: seashell;
+}
+
+li {
+    list-style: none;
+}
+
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 1px solid seashell;
+    height: 69px;
+    width: 100vw;
+    padding: 0 40px;
+    background: black;
+}
+
+header .logo {
+    height: 50px;
+}
+
+header nav ul {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 32px;
+}
+
+#mission {
+    height: 700px;
+    width: 95vw;
+    margin: 0 auto;
+    background: url(./assets/img-mission-background.jpg) center no-repeat;
+    background-size: cover;
+    margin-top: 69px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+#mission h2, #mission h4 {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: black;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+#featuredTea {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+    width: 70vw;
+    margin: 80px auto;
+}
+
+#featuredTea .info {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+#featuredTea .info h2 {
+    margin-bottom: 20px;
+}
+
+
+#featuredTea .cards {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+    flex-wrap: wrap;
+    margin-top: 40px;
+}
+
+#featuredTea .cards .card {
+    width: 18vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 200px;
+    gap: 10px;
+    margin-bottom: 40px;
+}
+
+#featuredTea .cards .card img {
+    width: 100%;
+    height: 100%;
+}
+
+#locations {
+    width: 95vw;
+    margin: 0 auto;
+    background: url(./assets/img-locations-background.jpg) no-repeat center;
+    background-size: cover;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+#locations .locationsCards {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+}
+
+#locations .locationsCards .locationCard {
+    width: 300px;
+    min-height: 320px;
+    background: black;
+    margin-top: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 40px;
+    padding: 30px;
+    text-align: center;
+}
+
+footer {
+    padding: 20px;
+}
+
+footer .contact {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    height: 200px;
+    gap: 30px;
+}
