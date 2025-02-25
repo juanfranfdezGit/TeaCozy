@@ -9,7 +9,7 @@ body {
     font-family: Arial, Helvetica, sans-serifS;
     font-size: 22px;
     color: seashell;
-    background: black;
+    background: #111;
     opacity: .9;
 }
 
@@ -32,7 +32,7 @@ header {
     height: 69px;
     width: 100vw;
     padding: 0 40px;
-    background: black;
+    background: #111;
 }
 
 header .logo {
@@ -64,7 +64,7 @@ header nav ul {
     display: flex;
     justify-content: center;
     align-items: center;
-    background: black;
+    background: #111;
     padding-top: 10px;
     padding-bottom: 10px;
 }
@@ -138,7 +138,7 @@ header nav ul {
 #locations .locationsCards .locationCard {
     width: 300px;
     min-height: 320px;
-    background: black;
+    background: #111;
     margin-top: 15px;
     display: flex;
     align-items: center;
